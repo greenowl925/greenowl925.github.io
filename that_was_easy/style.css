@@ -1,4 +1,6 @@
 #easy {
+  display: block;
+  margin: auto;
   width: 250px;
   height: 250px;
   border-radius: 150px;
@@ -8,6 +10,19 @@
   color: orange;
 }
 
+#daniel {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border-color: black;
+  background-color: green;
+  font-size: 50px;
+  color: black;
+}
+
 img {
-    width: 300px;
+  display: block;
+  margin: auto;
 }

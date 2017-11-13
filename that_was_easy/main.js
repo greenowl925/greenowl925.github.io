@@ -6,8 +6,15 @@ $("#easy").on("click", sayThatWasEasy);
 
 $(document).keypress(delegateKeypress);
 
+function daniel(){
+    var daniel = new Audio("danielCullin.mp3");
+    daniel.play();
+}
+$("#daniel").on("click", daniel);
+
 function delegateKeypress(event){
     if (event.charCode == 32) {
-        $("#easy").trigger("click");
+        $("#daniel").trigger("click");
     }
+
 }
